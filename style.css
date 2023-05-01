@@ -1,0 +1,280 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background:rgb(53,58,64);
+    width: 100%;
+    
+}
+.image_logo{
+    height: 50px;
+    align-items: center;
+}
+
+h2{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:15px 0;
+    padding: 15px;
+    
+}
+
+.logo {
+    display: inline-block;
+;
+}
+
+nav{
+    float:right ;
+    padding: 15px ;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enlace_distint{
+    color: green;
+}
+
+main{
+    /* height: 80px; */
+    position: relative;
+}
+
+.image_palacio {
+    width: 100%;
+    overflow: hidden;
+    filter: brightness(50%)
+
+}
+
+.card-float{
+    position: absolute;
+    right: 80px;
+    top: 200px;
+    width: 505px;
+    color: white;
+    font-weight: 300;
+    text-align: right;
+  
+
+}
+
+.enlace-1 {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.enlace-2 {
+    background: green ;
+    border-radius: 10px
+    
+}
+
+p{
+    padding: 15px 0;
+}
+
+.container-enlace {
+    padding: 15px;
+
+}
+
+.card{
+    display: inline-block;
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container-oradores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card_body{
+    border: 1px solid #ccc;
+    padding: 5px;
+    height: 200px; /* mismo tamaño que la imagen */
+    
+}
+
+.boton_java{
+        background: rgb(254, 193, 4) ;
+        border-radius: 5px;
+       border-style:hidden;
+       font-size: 10px;
+    }
+
+.boton_react{
+    background: rgb(23, 162, 185) ;
+    border-radius: 5px;
+    border-style: hidden;
+    color: white;  
+    font-size: 10px
+}
+.boton_startups{
+    background: rgb(220, 55, 71) ;
+    border-radius: 5px;
+    border-style: hidden;
+      color: white;
+      font-size: 10px
+}
+
+.boton_negocios{
+    background: rgb(108, 117, 126) ;
+    border-radius: 5px;
+    border-style: hidden;
+    color: white;  
+    font-size: 10px
+}
+
+.card p{
+    font-size: 12px;
+}
+
+.container_informacion {
+    display: flex;
+    width: 100%;
+   
+}
+
+.image_playa{
+    width: 50%;
+    overflow: hidden;
+}
+
+.info_playa { 
+    float: right;
+    background:rgb(53,58,64);
+    width: 50%;
+    color: white;
+      }
+
+.enlace-3 {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.container_orador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 8px;
+    }
+
+.container_orador2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 2em;
+    line-height: 0.1em;
+}
+ form {
+        display: flex;
+        flex-direction: column;
+        
+ }
+ input[type="text"] {
+    display:  inline-block;
+    width: calc(50% - 5px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    
+    }
+
+#nombre,
+#apellido,
+#sobre-que-quieres-hablar {
+    display: inline-block;
+    margin-right: 0px;
+    width: 48%;
+}
+
+#nombre {
+    margin-right: 0px;
+    }
+
+#sobre-que-quieres-hablar {
+    display: inline-block;
+  width: 95%;
+  margin-right: 10px;
+  height: 80px;
+}
+
+.recuerda{
+    text-align: left;
+    line-height: 0.1em;
+}
+.enlace-4 {
+    background: green ;
+    width: 24%;
+    border-radius: 0px;
+    text-align: center;
+    
+}
+.container-pie ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container-pie li {
+    margin: 0 10px;
+    font-size: 13px;
+  }
+  
+  .container-pie a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    white-space: nowrap;
+    display: block;
+    margin: 10px 0;
+  }
+
+
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background:rgb(28,56,70);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
